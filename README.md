@@ -13,16 +13,17 @@ MLG Labels είναι ένα μικρό, εύχρηστο Python package που 
 
 ```bash
 pip install mlg-labels
-
+```
 or
  
 ή για developers (editable mode):
-
+```bash
 pip install -e .
-
+```
 📦 JSON Input Format
 
 Το package περιμένει ένα JSON με λίστα προϊόντων:
+```bash
 [
   {
     "name": "Παπαδοπούλου ψωμί τοστ",
@@ -37,9 +38,9 @@ pip install -e .
     "brand": "Ιωνίς"
   }
 ]
-
+```
 🧩 Usage Example
-
+```bash
 from ainte_mlg.label_generator import generate_labels
 
 products = [
@@ -62,7 +63,7 @@ Output example:
 3L  
 Τιμή: 26.18 €
 ----------------------
-
+```
 
 🖨 Printing (A4)
 
@@ -75,12 +76,12 @@ Output example:
 Συμβατότητα με κοινά A4 label sheets (Amazon / e-shop)
 
 🗂 Package Structure
-
+```bash
 ainte_mlg/
     __init__.py
     label_generator.py
     utils.py
-
+```
 🔧 Roadmap
 
  A4 PDF export
