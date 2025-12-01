@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: mlg-labels
+Version: 0.1.0
+Summary: Label generator for product pricing in A4 sheets (20-label layout)
+Author-email: Dimitriosxal <xalatsis.dimitrios@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# AInte-MLG
+Market Label Generator with AI based on my market needs for easy labeling when a new product arrives, or when a price is changed from providers.
